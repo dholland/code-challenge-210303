@@ -1,0 +1,19 @@
+{
+  "name": "equipment",
+  "version": "1.0.0",
+  "description": "json files for equipment challenge",
+  "main": "equipmentList.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarissaBrown/code-challenge-210303.git"
+  },
+  "author": "Larissa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarissaBrown/code-challenge-210303/issues"
+  },
+  "homepage": "https://github.com/LarissaBrown/code-challenge-210303#readme"
+}

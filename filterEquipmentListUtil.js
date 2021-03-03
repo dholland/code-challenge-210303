@@ -1,8 +1,22 @@
 const fs = require('fs');
 const equipmentList = require('./equipmentList');
 
-const filteredData = (arr) => {
-	//Your Code Here
+
+
+const  filteredData = (arr) => {
+
+  const jsonOutput = JSON.stringify(arr, null, 2)
+  
+  return fs.writeFileSync("./equipmentListJson.json",jsonOutput)
+ 
+  
+  
+  
 };
 
-fs.writeFileSync(filename, data);
+
+filteredData(equipmentList)
+
+
+
+
